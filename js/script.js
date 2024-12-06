@@ -14,7 +14,7 @@ function generateHtml(data, container) {
     if (Array.isArray(data.criteria)) {
         data.criteria.forEach(criteria => {
             const criteriaElement = document.createElement('div');
-            criteriaElement.classList.add('rule');
+            criteriaElement.classList.add('criteria');
             criteriaElement.innerHTML = `
                  <p>${criteria.left}</p>
                 <p> vs </p>

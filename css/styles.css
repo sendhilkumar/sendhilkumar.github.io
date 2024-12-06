@@ -6,18 +6,18 @@ h1 {
     color: #333;
 }
 
-.rule {
+.criteria {
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.rule h3 {
+.criteria h3 {
     margin: 0;
     color: #007bff;
 }
 
-.rule p {
+.criteria p {
     color: #555;
 }
