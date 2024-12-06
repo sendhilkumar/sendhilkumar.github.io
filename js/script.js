@@ -16,9 +16,9 @@ function generateHtml(data, container) {
             const criteriaElement = document.createElement('div');
             criteriaElement.classList.add('rule');
             criteriaElement.innerHTML = `
-                 <p>${criteria.criteria[0].left}</p>
+                 <p>${criteria.left}</p>
                 <p> vs </p>
-                <p>${criteria.criteria[0].right}</p>
+                <p>${criteria.right}</p>
             `;
             container.appendChild(criteriaElement);
         });
